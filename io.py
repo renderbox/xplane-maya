@@ -29,7 +29,7 @@ class WOBJWriter(class):
         outfile.close()
 
 
-class XPlaneOBJReader(class):
+class XPlaneOBJReader(object):
     '''Creates a Geormetry Object from an XPlane OBJ file'''
 
     def __init__(self):
