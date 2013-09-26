@@ -35,3 +35,5 @@ nosetests.xml
 .pydevproject
 
 console_dump.py
+
+sample.py
