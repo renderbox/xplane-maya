@@ -44,3 +44,9 @@ class Geometry(object):
         self.vertexList = []
         self.pointList = []
         self.polyList = []
+
+    def vertex_count(self):
+        return len( self.vertexList )
+
+    def poly_count(self):
+        return len( self.polyList )
